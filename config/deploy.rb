@@ -5,6 +5,9 @@ lock '3.15.0'
 set :application, 'custom_bot'
 set :repo_url,  'git@github.com:tomoaki-abe/custom_bot.git'
 
+# githubのデフォルトのブランチがmasterではなくmainになっている場合のみ以下1行のコメントアウトを外して追記してください。 ※1補足
+# set :branch, 'main'
+
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
 
 set :rbenv_type, :user
