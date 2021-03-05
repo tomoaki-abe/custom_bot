@@ -1,0 +1,2 @@
+class FlontsController < ApplicationController
+end
