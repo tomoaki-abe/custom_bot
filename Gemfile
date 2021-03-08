@@ -69,3 +69,5 @@ gem 'jquery-rails'
 gem 'pry-rails'
 gem 'rails-i18n'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'line-bot-api'
+gem 'dotenv-rails'
